@@ -8,6 +8,17 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.qr-container {
+display: flex;
+}
+
+.qr-code {
+  margin-top: -80px;
+  margin-left: 280px;
+  position: absolute;
+  width: 140px;
+}
+
 .imagen-ts {
   width: 28px;
 }
@@ -24,7 +35,7 @@
 .telefono {
   font-weight: bold;
   font-size: 22px;
-  margin-top: 0.8rem!important;
+  margin-top: 1.5rem!important;
 }
 
 .datos {
