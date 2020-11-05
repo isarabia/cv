@@ -94,7 +94,7 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: 21cm;
   height: auto;
   display: flex;
   margin-right: auto;
@@ -102,7 +102,7 @@ body {
 }
 
 .resume_cabecera {
-  width: 800px;
+  width: 21cm;
   height: 40rem;
   background-color: #6db33f;
   clip-path: polygon(0 0, 100% 0, 100% 21%, 0 40%);
