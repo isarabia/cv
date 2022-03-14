@@ -19,6 +19,29 @@ display: flex;
   width: 140px;
 }
 
+.imagen-java {
+  width: 32px;
+  margin-bottom: -25%;
+  padding-bottom: 25%;
+}
+.imagen-spring {
+  width: 40px;
+  margin-left: -12%;
+}
+.imagen-maven {
+  width: 32px;
+  margin-top: -24%;
+  margin-bottom: -24%;
+  transform: rotate(270deg) scaleY(-1);
+}
+.imagen-tomcat {
+  width: 40px;
+  margin-left: -8%;
+}
+.imagen-sql {
+  width: 28px;
+  margin-left: 0%;
+}
 .imagen-ts {
   width: 28px;
 }
@@ -94,7 +117,7 @@ body {
 }
 
 .resume {
-  width: 800px;
+  width: 21cm;
   height: auto;
   display: flex;
   margin-right: auto;
@@ -102,7 +125,7 @@ body {
 }
 
 .resume_cabecera {
-  width: 800px;
+  width: 21cm;
   height: 40rem;
   background-color: #6db33f;
   clip-path: polygon(0 0, 100% 0, 100% 21%, 0 40%);
@@ -116,8 +139,8 @@ body {
   width: 12rem;
   height: 12rem;
   margin-top: 2.5rem !important;
-  margin-left: 2.5rem !important;
-  background-image: url(cv_foto.jpg);
+  margin-left: 3.5rem !important;
+  background-image: url(img/cv_foto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
@@ -293,6 +316,7 @@ body {
   height: 6px;
   border-radius: 50%;
   border: 3px solid #585c68;
+  background-color: white;
 }
 
 .resume .resume_right .resume_work ul li:after,
@@ -302,7 +326,7 @@ body {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 115px;
+  height: 200px;
   background: #585c68;
 }
 
