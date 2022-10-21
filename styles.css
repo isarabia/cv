@@ -96,10 +96,11 @@ a {
 .barra-progreso {
   margin-left: 1rem!important;
   width: 80px!important;
+  border-radius: 10px;
 }
 
 body {
-  background: #585c68;
+  background: #80838c;
   font-size: 14px;
   line-height: 22px;
   color: #555555;
@@ -195,6 +196,8 @@ body {
 .resume .resume_item {
   padding: 25px 0;
   border-bottom: 2px solid #378006;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .resume .resume_left .resume_item:last-child,
@@ -264,6 +267,7 @@ body {
   left: 0;
   height: 100%;
   background: #fff;
+  border-radius: 10px;
 }
 
 .resume .resume_left .resume_social .semi-bold {
@@ -315,7 +319,7 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  border: 3px solid #585c68;
+  border: 3px solid #6db33f;
   background-color: white;
 }
 
@@ -327,7 +331,7 @@ body {
   left: -21px;
   width: 2px;
   height: 200px;
-  background: #585c68;
+  background: #6db33f;
 }
 
 .resume .resume_right .resume_hobby ul {
