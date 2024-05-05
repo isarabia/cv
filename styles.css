@@ -24,6 +24,10 @@ display: flex;
   margin-bottom: -25%;
   padding-bottom: 25%;
 }
+.imagen-junit {
+  width: 56px;
+  margin-left: -8%;
+}
 .imagen-spring {
   width: 40px;
   margin-left: -12%;
@@ -63,6 +67,17 @@ display: flex;
 
 .datos {
   font-weight: bold;
+  color: #555555;
+}
+
+.personal-info {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 30%;
+  display: inline-block;
+  word-break:break-all;
+  width: 218px;
 }
 
 a {
