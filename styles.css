@@ -49,8 +49,22 @@ display: flex;
 .imagen-ts {
   width: 28px;
 }
+.imagen-git {
+  width: 35px;
+}
+.imagen-docker {
+  width: 40px;
+}
+.imagen-github {
+  width: 60px;
+  margin-left: -20%;
+}
+.imagen-jenkins {
+  width: 30px;
+}
 .imagen-sonar {
-  width: 28px;
+  width: 32px;
+  margin-top: 15%;
 }
 .imagen-jquery {
   width: 28px;
