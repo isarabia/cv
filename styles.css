@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
 
 * {
@@ -9,12 +10,12 @@
 }
 
 .qr-container {
-display: flex;
+  display: flex;
 }
 
 .qr-code {
   margin-top: -80px;
-  margin-left: 280px;
+  margin-left: 320px;
   position: absolute;
   width: 140px;
 }
@@ -24,51 +25,64 @@ display: flex;
   margin-bottom: -25%;
   padding-bottom: 25%;
 }
+
 .imagen-junit {
   width: 56px;
   margin-left: -8%;
 }
+
 .imagen-spring {
   width: 40px;
   margin-left: -12%;
 }
+
 .imagen-maven {
   width: 32px;
   margin-top: -24%;
   margin-bottom: -24%;
   transform: rotate(270deg) scaleY(-1);
 }
+
 .imagen-tomcat {
   width: 40px;
   margin-left: -8%;
 }
+
 .imagen-sql {
   width: 28px;
   margin-left: 0%;
 }
+
 .imagen-ts {
   width: 28px;
 }
+
 .imagen-git {
   width: 35px;
 }
+
 .imagen-docker {
   width: 40px;
 }
+
 .imagen-github {
   width: 60px;
   margin-left: -20%;
 }
+
 .imagen-jenkins {
   width: 30px;
 }
+
 .imagen-sonar {
   width: 32px;
   margin-top: 15%;
 }
+
 .imagen-jquery {
   width: 28px;
 }
+
 .imagen-c {
   width: 28px;
 }
@@ -76,7 +90,7 @@ display: flex;
 .telefono {
   font-weight: bold;
   font-size: 22px;
-  margin-top: 1.5rem!important;
+  margin-top: 1.5rem !important;
 }
 
 .datos {
@@ -90,12 +104,12 @@ display: flex;
   font-size: 14px;
   margin-left: 30%;
   display: inline-block;
-  word-break:break-all;
+  word-break: break-all;
   width: 218px;
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .icono {
@@ -112,7 +126,7 @@ a {
 }
 
 .skill-tag {
-  color: #6db33f;
+  color: #166c60;
   display: inline-block;
   padding: 0.3rem;
   background-color: white;
@@ -123,8 +137,8 @@ a {
 }
 
 .barra-progreso {
-  margin-left: 1rem!important;
-  width: 80px!important;
+  margin-left: 1rem !important;
+  width: 80px !important;
   border-radius: 10px;
 }
 
@@ -157,7 +171,7 @@ body {
 .resume_cabecera {
   width: 21cm;
   height: 40rem;
-  background-color: #6db33f;
+  background-color: #166c60;
   clip-path: polygon(0 0, 100% 0, 100% 21%, 0 40%);
   display: flex;
   margin: 50px auto;
@@ -195,8 +209,8 @@ body {
 }
 
 .resume .resume_left {
-  width: 300px;
-  background: #6db33f;
+  width: 280px;
+  background: #166c60;
 }
 
 .resume .resume_left .resume_profile {
@@ -218,20 +232,32 @@ body {
   margin-bottom: 20px;
 }
 
+/* Cabeceras de Datos de Contacto y Skills */
+.resume .resume_left .resume_skills .title {
+  background-color: #1d6259;
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.resume .resume_left .resume_skills .title .bold {
+  font-size: 18px;
+  white-space: nowrap;
+  letter-spacing: -0.5px;
+}
+
 .resume .resume_left .bold {
   color: #fff;
 }
 
 .resume .resume_item {
-  padding: 25px 0;
-  border-bottom: 2px solid #378006;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  padding: 15px 0;
 }
 
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
-  border-bottom: 0px;
+  border-bottom: 0;
 }
 
 .resume .resume_left ul li {
@@ -305,14 +331,14 @@ body {
 }
 
 .resume .resume_right {
-  width: 520px;
+  width: 524px;
   background: #fff;
   padding: 25px;
   padding-top: 250px;
 }
 
 .resume .resume_right .bold {
-  color: #6db33f;
+  color: #166c60;
 }
 
 .resume .resume_right .resume_work ul,
@@ -348,7 +374,7 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  border: 3px solid #6db33f;
+  border: 3px solid #166c60;
   background-color: white;
 }
 
@@ -360,7 +386,7 @@ body {
   left: -21px;
   width: 2px;
   height: 200px;
-  background: #6db33f;
+  background: #166c60;
 }
 
 .resume .resume_right .resume_hobby ul {
@@ -390,4 +416,46 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+.resume .resume_left .resume_techskills .title {
+  background-color: #1d6259;
+  font-weight: bold;
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+}
+
+.resume .resume_left .resume_techskills .skill-category {
+  display: block;
+  margin-bottom: 32px;
+  line-height: 1.8;
+}
+
+.resume .resume_left .resume_techskills .skill-category-name {
+  color: #b8ded8;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 2px;
+}
+
+.resume .resume_left .resume_techskills .skill-category-items {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.resume .resume_left .resume_techskills .skill-category-items span {
+  color: #a8d5ce;
+  padding: 0 4px;
+}
+
+@media print {
+  body {
+    background: #fff !important;
+  }
 }
